@@ -1,0 +1,51 @@
+.card_grid{
+    border: 2px solid 	#dddddd;
+    border-radius: 0.3rem;
+}
+.header{
+    display: flex;
+    margin-top: 1rem;
+    align-items: center;
+    gap: 1rem;
+}
+.header_name{
+    font-family: 'Raleway', SansSerif;
+    margin-left: 1rem;
+    font-size: 20px;
+}
+.cards{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 1rem;
+}
+.header_chip{
+    display: flex;
+    gap: 0.2rem;
+}
+.chip{
+    display: flex;
+    align-items: center;
+    height: 0.7rem;
+    padding: 0.3rem;
+    background-color: #ebebeb;
+    border-radius: 1rem;
+
+}
+.chip_header{
+    padding-right: 0.5rem;
+    margin:0.1rem;
+}
+.cross{
+    width: 0.7rem;
+    margin-top: 0.3rem;
+}
+.cross:hover{
+    cursor: pointer;
+}
+.remove_all{
+    text-decoration: underline;
+    color: blue;
+}
+.remove_all:hover{
+    cursor: pointer;
+}
